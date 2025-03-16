@@ -1,0 +1,25 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using TaskApp.Core.ViewModels.UserModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "main.cshtml";
+	ViewData["Title"] = "Login";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>@ViewData["Title"]</h2>
+                </div>
+                <div class="card-body">
+					@await Html.PartialAsync("User/_Login", new LoginViewModel())
+                </div>
+
+				@* Login Link if not having account *@
+
+            </div>
+        </div>
+    </div>
+</div>

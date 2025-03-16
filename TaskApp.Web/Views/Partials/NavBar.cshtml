@@ -1,0 +1,31 @@
+﻿@using System.Security.Claims
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- Name of the App in NavBar -->
+    <a class="navbar-brand" href="#">TaskApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- NavBar of the App -->
+
+        <!-- NavBar of the User -->
+        <ul>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li><a asp-controller="User" asp-action="Index">Profile</a></li>
+                <li>
+                    <form asp-controller="User" asp-action="Logout" method="post">
+                        <button type="submit">Logout</button>
+                    </form>
+                </li>
+            }
+            else
+            {
+                <li><a asp-controller="User" asp-action="Login">Login</a></li>
+                <li><a asp-controller="User" asp-action="Register">Register</a></li>
+            }
+        </ul>
+    </div>
+</nav>

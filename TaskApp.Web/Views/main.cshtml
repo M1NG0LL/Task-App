@@ -1,0 +1,33 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.Blocks
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Bootstrap & FontAwesome -->
+    @await Html.PartialAsync("_Styles")
+</head>
+
+<body>
+
+    <!-- Nav goes here! -->
+    @await Html.PartialAsync("NavBar")
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    @await Html.PartialAsync("Footer")
+
+
+    <!-- Scripts -->
+    @await Html.PartialAsync("_Scripts")
+
+</body>
+</html>

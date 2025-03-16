@@ -1,0 +1,13 @@
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\bin\Debug\net9.0\TaskApp.Domain.deps.json
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\bin\Debug\net9.0\TaskApp.Domain.dll
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\bin\Debug\net9.0\TaskApp.Domain.pdb
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.sourcelink.json
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.dll
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\refint\TaskApp.Domain.dll
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\TaskApp.Domain.pdb
+C:\Users\DELL\OneDrive\Desktop\C# Projects\TaskApp\TaskApp.Domain\obj\Debug\net9.0\ref\TaskApp.Domain.dll
